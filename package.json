@@ -4,8 +4,13 @@
   "description": "Building A web entreprise App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server "
   },
   "author": "AsketSystem",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "hapi": "^18.1.0",
+    "nodemon": "^1.19.1"
+  }
 }
