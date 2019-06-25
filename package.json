@@ -1,0 +1,11 @@
+{
+  "name": "shifttime",
+  "version": "1.0.0",
+  "description": "Building A web entreprise App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AsketSystem",
+  "license": "ISC"
+}
