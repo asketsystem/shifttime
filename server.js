@@ -17,18 +17,19 @@ const init = async () => {
             return 'Hello World from shifttime!';
         }
     });
-server.route({
-    method: 'POST',
-    path: '/shift',
-    handler: (request, h)  => {
-
-        return request.payload;
-    }
-});
-
+    server.route({
+        method: 'POST',
+        path: '/shift',
+        handler: (request, h)  => {
+    
+            return request.payload;
+        }
+    });
     await server.start();
     console.log('Server running on %s', server.info.uri);
 };
+
+
 
 process.on('unhandledRejection', (err) => {
 
